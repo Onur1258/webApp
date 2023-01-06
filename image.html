@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <div class="top-right">
+        <a href="index.html">Google Search</a>
+    </div>
+    <form class = "center" action="https://google.com/search" target="_blank">
+        <input type="text" name="q">
+        <input type="hidden" name="tbm" value="isch">
+        <input type="submit" value="Google Search">
+    </form>
+</body>
+</html>
+<style>
+    .top-right{
+        position:absolute;
+        top:0%;
+        right:5%;
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+    [type="text"]{
+        border-radius: 5px;
+    }
+</style>

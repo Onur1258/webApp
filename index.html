@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="top-right">
+        <a href="advanced.html">Advanced</a>
+        <a href="image.html">Image</a>
+    </div>
+    <form class="center" action="https://google.com/search" target="_blank">
+        <input type="text" name="q">
+        <div>
+            <input type="submit" name="btnQ" value="Google Search">
+            <input type="submit" name="btnL" value="I am Feeling Lucky">
+        </div>
+    </form>
+</body>
+
+</html>
+
+<style>
+    .top-right {
+        position: absolute;
+        top: 0%;
+        right: 5%;
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    [type="text"] {
+        border-radius: 5px;
+    }
+</style>
